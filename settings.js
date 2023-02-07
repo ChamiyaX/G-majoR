@@ -23,13 +23,13 @@ global.location = "Sri Lanka, Kuliyapitiya" //ur location
 //bot bomdy 
 global.ownernomer = "94767184785" //ur number
 global.premium = ['94767184785'] //ur premium number
-global.botname = '©𝓖-𝓶𝓪𝓳𝓸𝓡 ᴡᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ' //ur bot name
+global.botname = '©⭑⭑⭑★✪ G-majoR ✪★⭑⭑⭑' //ur bot name
 global.linkz = "https://wa.me/qr/RYCX4CFIRGC6K1" //your theme url which will be displayed on whatsapp
 global.websitex = "https:// no" //ur website to be displayed
 global.botscript = 'git@github.com:ChamiyaX/G-majoR.git' //script link
 global.themeemoji = "🛸" //ur theme emoji
-global.packname = "   😎 *𝓖-𝓶𝓪𝓳𝓸𝓡 𝓑𝓞𝓣* 😎" //ur sticker watermark packname
-global.author = "   😎 *𝓖-𝓶𝓪𝓳𝓸𝓡 𝓑𝓞𝓣* 😎\n\n\nA whatsapp bot developed by\nCHAMIDU" //ur sticker watermark author
+global.packname = "▼△▼△ 𝙶-𝚖𝚊𝚓𝚘𝚁 ▼△▼△" //ur sticker watermark packname
+global.author = "   \n\n\nA whatsapp bot developed by\nCHAMIDU" //ur sticker watermark author
 global.wm = "😎 *𝓖-𝓶𝓪𝓳𝓸𝓡 𝓑𝓞𝓣* 😎." //ur watermark
 
 // Other
