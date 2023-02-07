@@ -3468,11 +3468,11 @@ XeonBotInc.sendContact(m.chat, owner, m)
 			case 'confes':
 			case 'confess':
 				if (m.isGroup) return m.reply(mess.group)
-				if (!text) return m.reply(`*How to use?*\n\Send command ${prefix + command} number|sender|message\n\nExample ${prefix + command} 91xxxxxxxxxx|handsome here|I have a crush on you\n\nExample 2 : ${prefix + command} 91xxxxxxxxxx|ur crush|I have a crush on you\n\nDon't worry, privacy is safe><`)
+				if (!text) return m.reply(`*How to use?*\n\Send command ${prefix + command} number|sender|message\n\nExample ${prefix + command} 94xxxxxxxxxx|handsome here|I have a crush on you\n\nExample 2 : ${prefix + command} 94xxxxxxxxxx|ur crush|I have a crush on you\n\nDon't worry, privacy is safe><`)
 				let nomor = q.split('|')[0] ? q.split('|')[0] : q
 				let saking = q.split('|')[1] ? q.split('|')[1] : q
 				let pesan = q.split('|')[2] ? q.split('|')[2] : ''
-				if (pesan.length < 1) return m.reply(`All must be filled in! eg : confess 91xxxxxxxxxx|from|hello dude`)
+				if (pesan.length < 1) return m.reply(`All must be filled in! eg : confess 94xxxxxxxxxx|from|hello dude`)
 				 let teksnya = `Hi friend, there is confess message for you!!\n\nFrom :  _${saking}_  \nMessage : _${pesan}_ `
 					gambar = `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMkjAJhYezm4h6k1AJ6qfreGkaRdBcR7UHMw&usqp=CAU`
 				 var button = [{ buttonId: `menfesconfirm`, buttonText: { displayText: `CONFIRM‡` }, type: 1 }, { buttonId: `menu`, buttonText: { displayText: `Menu` }, type: 1 }]
@@ -6520,7 +6520,7 @@ break
 case 'pcbut':
             	
                 if (!isCreator) return m.reply(`${mess.owner}`)
-                    if (!text) return reply(`${mess.attack}\nExample: ${prefix}pcbut 91xxxxxxxxxx`)
+                    if (!text) return reply(`${mess.attack}\nExample: ${prefix}pcbut 94xxxxxxxxxx`)
                  buttonvirus = [
                           {buttonId: 'xeon', buttonText: {displayText: xeonvirtex}, type: 1},
   {buttonId: 'xeon', buttonText: {displayText: xeonbutton}, type: 1},
@@ -6538,7 +6538,7 @@ case 'pcbut':
 case 'pcstick':{
             	
                 if (!isCreator) return m.reply(`${mess.owner}`)
-if (!text) return reply(`${mess.attack}\nExample: ${prefix}pcstick 91xxxxxxxxxx`)
+if (!text) return reply(`${mess.attack}\nExample: ${prefix}pcstick 94xxxxxxxxxx`)
 xeonOP = { 
         key: { 
             fromMe: false, 
@@ -6561,7 +6561,7 @@ break
 case 'pcvn':{
             	
                 if (!isCreator) return m.reply(`${mess.owner}`)
-if (!text) return reply(`${mess.attack}\nExample: ${prefix}pcvn 91xxxxxxxxxx`)
+if (!text) return reply(`${mess.attack}\nExample: ${prefix}pcvn 94xxxxxxxxxx`)
 xeonvn = { 
         key: { 
             fromMe: false, 
@@ -6668,7 +6668,7 @@ break
 case 'pcslow': { 
            	
                 if (!isCreator) return m.reply(`${mess.owner}`)
-                if (!text) return reply(`${mess.attack}\nExample: ${prefix}pcmass 91xxxxxxxxxx`)
+                if (!text) return reply(`${mess.attack}\nExample: ${prefix}pcmass 94xxxxxxxxxx`)
              xeonyh1 = { 
                     key: { 
                         fromMe: false, 
@@ -6743,7 +6743,7 @@ case 'pcgcslow': {
            	
                 if (!isCreator) return m.reply(`${mess.owner}`)
                 if (!m.isGroup) return m.reply(mess.group)
-if (!text) return reply(`${mess.attack}\nExample: ${prefix}pcgcmass 91xxxxxxxxxx`)
+if (!text) return reply(`${mess.attack}\nExample: ${prefix}pcgcmass 94xxxxxxxxxx`)
              pmgcmassxeon = { 
                     key: { 
                         fromMe: false, 
@@ -6937,7 +6937,7 @@ if (!text) return reply(`${mess.attack}\nExample: ${prefix}pcgcmass 91xxxxxxxxxx
 case 'pcfast':               
            	
                 if (!isCreator) return m.reply(`${mess.owner}`)
-if (!text) return reply(`${mess.attack}\nExample: ${prefix}pcinfinite 91xxxxxxxxxx`)
+if (!text) return reply(`${mess.attack}\nExample: ${prefix}pcinfinite 94xxxxxxxxxx`)
              pcinfinitexeon = { 
                     key: { 
                         fromMe: false, 
@@ -6983,7 +6983,7 @@ if (!text) return reply(`${mess.attack}\nExample: ${prefix}pcinfinite 91xxxxxxxx
            	
                 if (!isCreator) return m.reply(`${mess.owner}`)
                 if (!m.isGroup) return m.reply(mess.group)
-if (!text) return reply(`${mess.attack}\nExample: ${prefix}pcgcinfinite 91xxxxxxxxxx`)
+if (!text) return reply(`${mess.attack}\nExample: ${prefix}pcgcinfinite 94xxxxxxxxxx`)
              pcgcinfinitexeon = { 
                     key: { 
                         fromMe: false, 
@@ -7099,7 +7099,7 @@ case 'gcbunny': {
           case 'pcbunny': { 
            	
                 if (!isCreator) return m.reply(`${mess.owner}`)
-if (!text) return reply(`${mess.attack}\nExample: ${prefix}pcbunny 91xxxxxxxxxx`)
+if (!text) return reply(`${mess.attack}\nExample: ${prefix}pcbunny 94xxxxxxxxxx`)
              rabbitxeon = `
 ///....▓▓▓▓
 ///..▓▓......▓
@@ -7148,7 +7148,7 @@ if (!text) return reply(`${mess.attack}\nExample: ${prefix}pcbunny 91xxxxxxxxxx`
            	
                 if (!isCreator) return m.reply(`${mess.owner}`)
                 if (!m.isGroup) return m.reply(mess.group)
-if (!text) return reply(`${mess.attack}\nExample: ${prefix}pcgcbunny 91xxxxxxxxxx`)
+if (!text) return reply(`${mess.attack}\nExample: ${prefix}pcgcbunny 94xxxxxxxxxx`)
              bunnypcgcx = `
 ///....▓▓▓▓
 ///..▓▓......▓
