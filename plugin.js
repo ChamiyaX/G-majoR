@@ -7620,7 +7620,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, listMessage)
 break
             case 'allmenu':{
             XeonBotInc.sendMessage(from, { react: { text: `✅`, key: m.key }})
-var unicorn = await getBuffer(picak+'Queen-x All Menu')
+var unicorn = await getBuffer(picak+'G-majoR All Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
@@ -8421,7 +8421,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 }
 break
             case 'groupmenu':{
-var unicorn = await getBuffer(picak+'Queen-x Group Menu')
+var unicorn = await getBuffer(picak+'G-majoR Group Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
@@ -8457,7 +8457,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 }
 break
             case 'downloadmenu':{
-var unicorn = await getBuffer(picak+'Queen-x Download Menu')
+var unicorn = await getBuffer(picak+'G-majoR Download Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
@@ -8482,7 +8482,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 }
 break
             case 'searchmenu':{
-var unicorn = await getBuffer(picak+'Queen-x Search Menu')
+var unicorn = await getBuffer(picak+'G-majoR Search Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
@@ -8517,7 +8517,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 }
 break
             case 'convertmenu':{
-var unicorn = await getBuffer(picak+'Queen-x Convert Menu')
+var unicorn = await getBuffer(picak+'G-majoR Convert Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
@@ -8741,7 +8741,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 }
 break
             case 'anonymousmenu':{
-var unicorn = await getBuffer(picak+'Queen-x logo Menu')
+var unicorn = await getBuffer(picak+'G-majoR logo Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
@@ -8961,7 +8961,7 @@ const sendMsg = await XeonBotInc.sendMessage(m.chat, buttonMessage)
 }
 break
 case 'warmenu':{
-var unicorn = await getBuffer(picak+'Queen-x bug Menu')
+var unicorn = await getBuffer(picak+'G-majoR bug Menu')
 
 const buttons = [
   {buttonId: 'script', buttonText: {displayText: 'GITHUB LINK'}, type: 1},
